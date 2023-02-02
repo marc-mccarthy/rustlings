@@ -29,6 +29,7 @@ curl -L https://raw.githubusercontent.com/rust-lang/rustlings/main/install.sh | 
 This will install Rustlings and give you access to the `rustlings` command. Run it to get started!
 
 ### Nix
+
 Basically: Clone the repository at the latest tag, finally run `nix develop` or `nix-shell`.
 
 ```bash
@@ -67,7 +68,7 @@ If you get a permission denied message, you might have to exclude the directory 
 
 ## Manually
 
-Basically: Clone the repository at the latest tag, run `cargo install --path .`.
+Basically: Clone the repository at the latest tag, run `ru .`.
 
 ```bash
 # find out the latest version at https://github.com/rust-lang/rustlings/releases/latest (on edit 5.3.0)
